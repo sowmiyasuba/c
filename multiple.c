@@ -10,6 +10,6 @@ scanf(%d",n);
 pintf("The multiples of given %d is :\n",n);
 for(i=0;i<=n;i++)
 if(i/n==0)
-printf("%d",&i);
+printf("%d"\t,&i);
 getch();
 }
